@@ -1,10 +1,12 @@
+import { asset } from "../../utils/asset";
+
 export default function BookOfMonth() {
   return (
     <section className="py-24">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 grid lg:grid-cols-2 gap-14 items-center">
 
         <img
-          src="/images/books/Wings_of_fire_2.png"
+          src={asset("images/books/Wings_of_fire_2.png")}
           alt="Cover of Wings of Fire"
           className="rounded-xl shadow-xl w-full h-auto object-cover"
           loading="lazy"

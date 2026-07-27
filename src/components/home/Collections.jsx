@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { asset } from "../../utils/asset";
 
 export default function Collections() {
   const [showArchiveModal, setShowArchiveModal] = useState(false);
@@ -27,9 +28,10 @@ export default function Collections() {
             {/* Featured */}
             <div className="relative md:col-span-2 rounded-2xl overflow-hidden shadow group min-h-[260px]">
               <img
-                src="/images/collections/neermathalam3.jpg"
+                src={asset("images/collections/neermathalam3.jpg")}
                 alt="Malayalam Literature"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
@@ -65,9 +67,10 @@ export default function Collections() {
             {/* Children's Corner */}
             <div className="rounded-2xl bg-white shadow flex items-center gap-4 p-5">
               <img
-                src="/images/collections/balabhumi1.jpg"
+                src={asset("images/collections/balabhumi1.jpg")}
                 alt="Children's Corner"
                 className="h-16 w-16 rounded-lg object-cover"
+                loading="lazy"
               />
 
               <div>
@@ -109,9 +112,10 @@ export default function Collections() {
             {/* Optional Image */}
             <div className="rounded-2xl overflow-hidden shadow min-h-[160px]">
               <img
-                src="/images/collections/academic2.jpg"
+                src={asset("images/collections/academic2.jpg")}
                 alt="Library Collection"
                 className="h-full w-full object-cover"
+                loading="lazy"
               />
             </div>
 

@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { asset } from "../../utils/asset";
 
 export default function GalleryCard({ images = [], title }) {
   return (
@@ -15,13 +16,13 @@ export default function GalleryCard({ images = [], title }) {
           <SwiperSlide key={i}>
             <div className="bg-gray-100 flex items-center justify-center h-72">
               <img
-                src={src}
+                src={asset(src)}
                 alt={`${title} photo ${i + 1}`}
                 className="max-w-full max-h-full object-contain"
                 loading="lazy"
                 onError={(e) => {
                   e.currentTarget.onerror = null;
-                  e.currentTarget.src = "/images/gallery/placeholder.jpg";
+                  e.currentTarget.src = asset("images/gallery/placeholder.jpg");
                 }}
               />
             </div>

@@ -1,6 +1,7 @@
 // components/about/Hero.jsx
 
 import { motion } from "framer-motion";
+import { asset } from "../../utils/asset";
 
 export default function Hero() {
   return (
@@ -42,7 +43,7 @@ export default function Hero() {
 
             {/* Image */}
             <img
-              src="/images/about/sujathakumari.jpg"
+              src={asset("images/about/sujathakumari.jpg")}
               alt="Dr. Sujathakumari at her writing desk in the library"
               className="w-full h-[420px] object-cover"
               loading="lazy"

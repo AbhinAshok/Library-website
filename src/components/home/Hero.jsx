@@ -1,12 +1,11 @@
 import { motion } from "framer-motion";
+import { asset } from "../../utils/asset";
 
 export default function Hero() {
   return (
     <section
       className="relative min-h-screen bg-cover bg-center"
-      style={{
-        backgroundImage: "url('/images/hero/library-hero4.jpg')",
-      }}
+      style={{ backgroundImage: `url('${asset("images/hero/library-hero4.jpg")}')` }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" />
