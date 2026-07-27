@@ -7,6 +7,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/Library-website/",
+  server: {
+    allowedHosts: true
+  }
 
   server: {
     allowedHosts: true
