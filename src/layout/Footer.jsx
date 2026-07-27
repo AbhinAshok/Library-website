@@ -8,7 +8,7 @@ export default function Footer() {
 
         <div className="mt-4 h-px w-24 mx-auto bg-white/10"></div>
 
-         {/* <p className="mt-4 text-xs md:text-sm text-white/40 tracking-wide">
+         <p className="mt-4 text-xs md:text-sm text-white/40 tracking-wide">
           Designed &amp; Developed by{" "}
           <a
             href="https://abhinashok.github.io/Abhin_Portfolio/"
@@ -18,7 +18,7 @@ export default function Footer() {
           >
             Abhin Ashok
           </a>
-        </p> */}
+        </p>
       </div>
     </footer>
   );
