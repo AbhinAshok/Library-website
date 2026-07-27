@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "title":"Olavum Theeravum",
+        "author":"M T Vasudevan Nair",
+        "category":"Malayalam",
+        "cover":"/images/books/literature9.jpg",
+        "status":"Available"
+    },
+    {
+        "id":2,
+        "title":"Neermathalam Pootha Kaalam",
+        "author":"Madhavikutty",
+        "category":"Literature",
+        "cover":"/images/books/Neermathalam.jpg",
+        "status":"Available"
+    },
+    {
+        "id":3,
+        "title":"Anaswara kathakal",
+        "author":"O V Vijayan",
+        "category":"Literature",
+        "cover":"/images/books/literature5.jpg",
+        "status":"Available"
+    },
+    {
+        "id":4,
+        "title":"Bhumiyude Avakashikal",
+        "author":"Basheer",
+        "category":"Literature",
+        "cover":"/images/books/literature6.jpg",
+        "status":"Available"
+    },
+    {
+        "id":5,
+        "title":"Agni chirakkukal",
+        "author":"APJ Abdul kalam",
+        "category":"Literature",
+        "cover":"/images/books/literature10.jpg",
+        "status":"Available"
+    }
+]

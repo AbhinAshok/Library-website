@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"Library Inaguration",
+        "category":"Events",
+        "images": [
+            "/images/gallery/libraryinaguration.jpeg",
+            "/images/gallery/inaguration2.jpeg",
+            "/images/gallery/inaguration3.jpeg",
+            "/images/gallery/inaguration4.jpeg"
+        ]
+        
+        
+    },
+    {
+        "id":2,
+        "title":"Reading Club",
+        "category":"Activities",
+        "images": [
+            "/images/gallery/readingevent.png"
+            
+        ]
+    },
+    {
+        "id":3,
+        "title":"Onam Programs",
+        "category":"Events",
+        "images": [
+            "/images/gallery/Onamcelebration.jpeg"
+            
+        ]
+    }
+    
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Syam Layout",
+        "designation":"Trustee",
+        "image":"/images/committee/member1.jpg"
+    },
+    {
+        "name":"Sasidharan Pillai",
+        "designation":"Trustee",
+        "image":"/images/committee/member2.jpg"
+    },
+    {
+        "name":"Anil Kumar",
+        "designation":"Mentor",
+        "image":"/images/committee/member3.jpg"
+    },
+    {
+        "name":"Aneesh R",
+        "designation":"Convenor",
+        "image":"/images/committee/member3.jpg"
+    },
+    {
+        "name":"Revathy Reghu",
+        "designation":"Convenor",
+        "image":"/images/committee/member3.jpg"
+    }
+]

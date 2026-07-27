@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "title":"Onam Programs",
+        "date":"August 26, 2026",
+        "location":"Library Courtyard",
+        "image":"/images/events/Onamprogramnotice.png"
+    },
+    {
+        "id":2,
+        "title":"Annual Book Fair",
+        "date":"October 10, 2026",
+        "location":"Library",
+        "image":"/images/events/BookFair1.png"
+    },
+    {
+        "id":3,
+        "title":"Author's meet",
+        "date":"November 10, 2026",
+        "location":"Library",
+        "image":"/images/events/Authorsmeet.png"
+    }
+]
