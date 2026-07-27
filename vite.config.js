@@ -8,7 +8,10 @@ export default defineConfig({
     tailwindcss(),
   ],
 
+  base: "/Library-website/",
   server: {
     allowedHosts: true
   }
+
+  
 });
