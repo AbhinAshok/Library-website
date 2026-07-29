@@ -1,11 +1,8 @@
-import AppRoutes from "./routes/AppRoutes";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { initGA, pageView } from "./utils/analytics";
 
-function App() {
-  return <AppRoutes />;
-}
+import AppRoutes from "./routes/AppRoutes";
+import { initGA, pageView } from "./utils/analytics";
 
 function AnalyticsTracker() {
   const location = useLocation();
@@ -15,10 +12,19 @@ function AnalyticsTracker() {
   }, []);
 
   useEffect(() => {
-    pageView(location.pathname);
+    pageView(location.pathname + location.search);
   }, [location]);
 
   return null;
+}
+
+function App() {
+  return (
+    <>
+      <AnalyticsTracker />
+      <AppRoutes />
+    </>
+  );
 }
 
 export default App;
