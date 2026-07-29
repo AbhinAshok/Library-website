@@ -14,16 +14,18 @@ export default function EventCard({ title, date, image }) {
         </p>
       </div>
 
-      <img
-        src={asset(image)}
-        alt={title}
-        className="w-full h-56 object-cover"
-        loading="lazy"
-        onError={(e) => {
-          e.currentTarget.onerror = null;
-          e.currentTarget.src = asset("images/events/placeholder.jpg");
-        }}
-      />
+      <div className="bg-gray-100 flex items-center justify-center h-64">
+        <img
+          src={asset(image)}
+          alt={title}
+          className="max-w-full max-h-full object-contain"
+          loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = asset("images/events/placeholder.jpg");
+          }}
+        />
+      </div>
 
     </div>
   );
