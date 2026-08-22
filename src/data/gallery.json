@@ -35,6 +35,20 @@
             
             
         ]
+    },
+    {
+        "id":4,
+        "title":"Coming soon",
+        "category":"Events",
+        "images": [
+            "/images/events/vadamvaliposter.jpeg",
+            "/images/events/uriyadiposter.jpeg",
+            "/images/events/kaikottikaliposter.jpeg",
+            "/images/events/djposter.png"
+            
+            
+            
+        ]
     }
     
 ]
