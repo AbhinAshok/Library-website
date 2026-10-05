@@ -1,38 +1,17 @@
 [
     {
         "id":1,
-        "title":"Onam Programs",
-        "date":"August 26, 2026",
+        "title":"Author's meet",
+        "date":"November 10, 2026",
         "location":"Library Courtyard",
-        "image":"/images/events/onamprogramnotice.jpeg"
+        "image":"/images/events/Authorsmeet.png"
     },
     {
         "id":2,
-        "title":"Onam Programs",
-        "date":"August 26, 2026",
+        "title":"Annual Book Fair",
+        "date":"December 12, 2026",
         "location":"Library",
-        "image":"/images/events/vadamvaliposter.jpeg"
-    },
-    {
-        "id":3,
-        "title":"Onam programs",
-        "date":"August 26, 2026",
-        "location":"Library",
-        "image":"/images/events/uriyadiposter.jpeg"
-    },
-    {
-        "id":4,
-        "title":"Onam programs",
-        "date":"August 26, 2026",
-        "location":"Library",
-        "image":"/images/events/kaikottikaliposter.jpeg"
-    },
-    {
-        "id":5,
-        "title":"Onam programs",
-        "date":"August 26, 2026",
-        "location":"Library",
-        "image":"/images/events/djposter.png"
+        "image":"/images/events/BookFair1.png"
     }
-
+    
 ]
