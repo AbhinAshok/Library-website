@@ -57,7 +57,7 @@ export default function Footer() {
         <p className="mt-4 text-xs md:text-sm text-white/40 tracking-wide">
           Designed &amp; Developed by{" "}
           <a
-            href="https://abhinashok.github.io/Abhin_Portfolio/"
+            href="https://abhin-ashok-portfolio.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-white/60 hover:text-[#C8A35D]
